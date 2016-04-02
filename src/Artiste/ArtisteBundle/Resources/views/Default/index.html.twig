@@ -1,0 +1,427 @@
+{% extends 'layout/layout.html.twig' %}
+{% block body %}
+    <div id="content-block">
+        <div class="head-bg">
+            <div class="head-bg-img"></div>
+            <div class="head-bg-content">
+                <h1>Your Best Social Network Template</h1>
+                <p>Donec in rhoncus tortor. Sed tristique auctor ligula vel viverra</p>
+                <a class="btn color-1 size-1 hover-1" ><i class="fa fa-facebook"></i>sign up via facebook</a>
+                <a class="be-register btn color-3 size-1 hover-6"><i class="fa fa-lock"></i>sign up now</a>
+            </div>
+        </div>
+        <div class="container-fluid cd-main-content custom-container">
+            <div class="row">
+                <div class="col-md-2 left-feild">
+                    <form action="http://demo.nrgthemes.com/projects/nrgnetwork/" class="input-search">
+                        <input type="text" required="" placeholder="Enter keyword">
+                        <i class="fa fa-search"></i>
+                        <input type="submit" value="">
+                    </form>
+                </div>
+                <div class="col-md-10">
+                    <div class="for-be-dropdowns">
+                        <div class="be-drop-down">
+                            <i class="icon-features"></i>
+							<span class="be-dropdown-content">Recherche par fonctionnalités
+							</span>
+                            <ul class="drop-down-list">
+                                <li class="filter" data-filter=".category-3"><a>La plupart Apprécié</a></li>
+                                <li class="filter" data-filter=".category-4"><a>Le plus regardé</a></li>
+                                <li class="filter" data-filter=".category-5"><a>le plus discuté</a></li>
+                                <li class="filter" data-filter=".category-1"><a>Le plus récent</a></li>
+                            </ul>
+                        </div>
+                        <div class="be-drop-down">
+                            <i class="icon-worldwide"></i>
+							<span class="be-dropdown-content">Recherche par lieu
+							</span>
+                            <ul class="drop-down-list">
+                                <li class="filter" data-filter=".category-2"><a>WorldWide</a></li>
+                                <li class="filter" data-filter=".category-3"><a>United States</a></li>
+                                <li class="filter" data-filter=".category-4"><a>Germany</a></li>
+                                <li class="filter" data-filter=".category-5"><a>United Kingdom</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid custom-container">
+            <div class="row">
+
+                <div class="col-md-2 left-feild">
+                    <div class="be-vidget">
+                        <h3 class="letf-menu-article">
+                            Popular Creative Filds
+                        </h3>
+                        <div class="creative_filds_block">
+                            <div class="ul">
+                                <a  data-filter=".category-1" class="filter">Graphic Design		</a>
+                                <a data-filter=".category-2" class="filter">Photography			</a>
+                                <a data-filter=".category-3" class="filter">Interaction Design	</a>
+                                <a data-filter=".category-4" class="filter">Art Direction		</a>
+                                <a data-filter=".category-5" class="filter">Illustration		</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="be-vidget">
+                        <h3 class="letf-menu-article">
+                            Popular Tags
+                        </h3>
+                        <div class="tags_block clearfix">
+                            <ul>
+                                <li><a data-filter=".category-6" class="filter">photoshop</a></li>
+                                <li><a data-filter=".category-1" class="filter">graphic</a></li>
+                                <li><a data-filter=".category-2" class="filter">art</a></li>
+                                <li><a data-filter=".category-3" class="filter">website</a></li>
+                                <li><a data-filter=".category-4" class="filter">logo</a></li>
+                                <li><a data-filter=".category-5" class="filter">identity</a></li>
+                                <li><a data-filter=".category-6" class="filter">logo design</a></li>
+                                <li><a data-filter=".category-1" class="filter">interactive</a></li>
+                                <li><a data-filter=".category-2" class="filter">blue</a></li>
+                                <li><a data-filter=".category-3" class="filter">branding</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-10">
+                    <div id="container-mix"  class="row _post-container_">
+                        <div class="category-1 mix custom-column-5">
+                            <div class="be-post">
+                                <a href="page1.html" class="be-img-block">
+                                    <img src="{{ asset('img/p1.jpg') }}" alt="omg">
+                                </a>
+                                <a href="page1.html" class="be-post-title">The kitsch destruction of our world</a>
+								<span>
+									<a href="blog-detail-2.html" class="be-post-tag">Interaction Design</a>,
+									<a href="blog-detail-2.html" class="be-post-tag">UI/UX</a>,
+									<a href="blog-detail-2.html" class="be-post-tag">Web Design</a>
+								</span>
+                                <div class="author-post">
+                                    <img src="{{ asset('img/p1.jpg') }}" alt="" class="ava-author">
+                                    <span>by <a href="page1.html">Hoang Nguyen</a></span>
+                                </div>
+                                <div class="info-block">
+                                    <span><i class="fa fa-thumbs-o-up"></i> 360</span>
+                                    <span><i class="fa fa-eye"></i> 789</span>
+                                    <span><i class="fa fa-comment-o"></i> 20</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="category-2 mix custom-column-5">
+                            <div class="be-post">
+                                <a href="page2.html" class="be-img-block">
+                                    <img src="{{ asset('img/p1.jpg') }}" alt="omg">
+                                </a>
+                                <a href="page2.html" class="be-post-title">Treebeard</a>
+								<span>
+									<a href="blog-detail-2.html" class="be-post-tag">Interaction Design</a>,
+									<a href="blog-detail-2.html" class="be-post-tag">UI/UX</a>,
+									<a href="blog-detail-2.html" class="be-post-tag">Web Design</a>
+								</span>
+                                <div class="author-post">
+                                    <img src="{{ asset('img/p1.jpg') }}" alt="" class="ava-author">
+                                    <span>by <a href="page2.html">Hoang Nguyen</a></span>
+                                </div>
+                                <div class="info-block">
+                                    <span><i class="fa fa-thumbs-o-up"></i> 360</span>
+                                    <span><i class="fa fa-eye"></i> 789</span>
+                                    <span><i class="fa fa-comment-o"></i> 20</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="category-3 mix custom-column-5">
+                            <div class="be-post">
+                                <a href="page3.html" class="be-img-block">
+                                    <img src="{{ asset('img/p1.jpg') }}" alt="omg">
+                                </a>
+                                <a href="page3.html" class="be-post-title">Colors of Ramadan</a>
+								<span>
+									<a href="blog-detail-2.html" class="be-post-tag">Interaction Design</a>,
+									<a href="blog-detail-2.html" class="be-post-tag">UI/UX</a>,
+									<a href="blog-detail-2.html" class="be-post-tag">Web Design</a>
+								</span>
+                                <div class="author-post">
+                                    <img src="{{ asset('img/p1.jpg') }}" alt="" class="ava-author">
+                                    <span>by <a href="page3.html">Hoang Nguyen</a></span>
+                                </div>
+                                <div class="info-block">
+                                    <span><i class="fa fa-thumbs-o-up"></i> 360</span>
+                                    <span><i class="fa fa-eye"></i> 789</span>
+                                    <span><i class="fa fa-comment-o"></i> 20</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="category-4 mix custom-column-5">
+                            <div class="be-post">
+                                <a href="page1.html" class="be-img-block">
+                                    <img src="{{ asset('img/p1.jpg') }}" alt="omg">
+                                </a>
+                                <a href="page1.html" class="be-post-title">Leaving Home - L'Officiel Ukraine</a>
+								<span>
+									<a href="blog-detail-2.html" class="be-post-tag">Interaction Design</a>,
+									<a href="blog-detail-2.html" class="be-post-tag">UI/UX</a>,
+									<a href="blog-detail-2.html" class="be-post-tag">Web Design</a>
+								</span>
+                                <div class="author-post">
+                                    <img src="{{ asset('img/p1.jpg') }}" alt="" class="ava-author">
+                                    <span>by <a href="page1.html">Hoang Nguyen</a></span>
+                                </div>
+                                <div class="info-block">
+                                    <span><i class="fa fa-thumbs-o-up"></i> 360</span>
+                                    <span><i class="fa fa-eye"></i> 789</span>
+                                    <span><i class="fa fa-comment-o"></i> 20</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="category-5 mix custom-column-5">
+                            <div class="be-post">
+                                <a href="page2.html" class="be-img-block">
+                                    <img src="{{ asset('img/p1.jpg') }}" alt="omg">
+                                </a>
+                                <a href="page2.html" class="be-post-title">Drive Your World</a>
+								<span>
+									<a href="blog-detail-2.html" class="be-post-tag">Interaction Design</a>,
+									<a href="blog-detail-2.html" class="be-post-tag">UI/UX</a>,
+									<a href="blog-detail-2.html" class="be-post-tag">Web Design</a>
+								</span>
+                                <div class="author-post">
+                                    <img src="{{ asset('img/p1.jpg') }}" alt="" class="ava-author">
+                                    <span>by <a href="page2.html">Hoang Nguyen</a></span>
+                                </div>
+                                <div class="info-block">
+                                    <span><i class="fa fa-thumbs-o-up"></i> 360</span>
+                                    <span><i class="fa fa-eye"></i> 789</span>
+                                    <span><i class="fa fa-comment-o"></i> 20</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="category-6 mix custom-column-5">
+                            <div class="be-post">
+                                <a href="page1.html" class="be-img-block">
+                                    <img src="{{ asset('img/p1.jpg') }}" alt="omg">
+                                </a>
+                                <a href="page1.html" class="be-post-title">Fran Ewald for The Diaries Project</a>
+								<span>
+									<a href="blog-detail-2.html" class="be-post-tag">Interaction Design</a>,
+									<a href="blog-detail-2.html" class="be-post-tag">UI/UX</a>,
+									<a href="blog-detail-2.html" class="be-post-tag">Web Design</a>
+								</span>
+                                <div class="author-post">
+                                    <img src="{{ asset('img/p1.jpg') }}" alt="" class="ava-author">
+                                    <span>by <a href="page1.html">Hoang Nguyen</a></span>
+                                </div>
+                                <div class="info-block">
+                                    <span><i class="fa fa-thumbs-o-up"></i> 360</span>
+                                    <span><i class="fa fa-eye"></i> 789</span>
+                                    <span><i class="fa fa-comment-o"></i> 20</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="category-5 mix custom-column-5">
+                            <div class="be-post">
+                                <a href="page1.html" class="be-img-block">
+                                    <img src="{{ asset('img/p1.jpg') }}" alt="omg">
+                                </a>
+                                <a href="page1.html" class="be-post-title">raindrops monochrome</a>
+								<span>
+									<a href="blog-detail-2.html" class="be-post-tag">Interaction Design</a>,
+									<a href="blog-detail-2.html" class="be-post-tag">UI/UX</a>,
+									<a href="blog-detail-2.html" class="be-post-tag">Web Design</a>
+								</span>
+                                <div class="author-post">
+                                    <img src="{{ asset('img/p1.jpg') }}" alt="" class="ava-author">
+                                    <span>by <a href="page1.html">Hoang Nguyen</a></span>
+                                </div>
+                                <div class="info-block">
+                                    <span><i class="fa fa-thumbs-o-up"></i> 360</span>
+                                    <span><i class="fa fa-eye"></i> 789</span>
+                                    <span><i class="fa fa-comment-o"></i> 20</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="category-3 mix custom-column-5">
+                            <div class="be-post">
+                                <a href="page3.html" class="be-img-block">
+                                    <img src="{{ asset('img/p1.jpg') }}" alt="omg">
+                                </a>
+                                <a href="page3.html" class="be-post-title">Racing Queensland</a>
+								<span>
+									<a href="blog-detail-2.html" class="be-post-tag">Interaction Design</a>,
+									<a href="blog-detail-2.html" class="be-post-tag">UI/UX</a>,
+									<a href="blog-detail-2.html" class="be-post-tag">Web Design</a>
+								</span>
+                                <div class="author-post">
+                                    <img src="{{ asset('img/p1.jpg') }}" alt="" class="ava-author">
+                                    <span>by <a href="page3.html">Hoang Nguyen</a></span>
+                                </div>
+                                <div class="info-block">
+                                    <span><i class="fa fa-thumbs-o-up"></i> 360</span>
+                                    <span><i class="fa fa-eye"></i> 789</span>
+                                    <span><i class="fa fa-comment-o"></i> 20</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="category-2 mix custom-column-5">
+                            <div class="be-post">
+                                <a href="page1.html" class="be-img-block">
+                                    <img src="{{ asset('img/p1.jpg') }}" alt="omg">
+                                </a>
+                                <a href="page1.html" class="be-post-title">NAHA Finalist Hairstylist of the Year Allen Ruiz</a>
+								<span>
+									<a href="blog-detail-2.html" class="be-post-tag">Interaction Design</a>,
+									<a href="blog-detail-2.html" class="be-post-tag">UI/UX</a>,
+									<a href="blog-detail-2.html" class="be-post-tag">Web Design</a>
+								</span>
+                                <div class="author-post">
+                                    <img src="{{ asset('img/p1.jpg') }}" alt="" class="ava-author">
+                                    <span>by <a href="page1.html">Hoang Nguyen</a></span>
+                                </div>
+                                <div class="info-block">
+                                    <span><i class="fa fa-thumbs-o-up"></i> 360</span>
+                                    <span><i class="fa fa-eye"></i> 789</span>
+                                    <span><i class="fa fa-comment-o"></i> 20</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="category-4 mix custom-column-5">
+                            <div class="be-post">
+                                <a href="page1.html" class="be-img-block">
+                                    <img src="{{ asset('img/p1.jpg') }}" alt="omg">
+                                </a>
+                                <a href="page1.html" class="be-post-title">tomorrow</a>
+								<span>
+									<a href="blog-detail-2.html" class="be-post-tag">Interaction Design</a>,
+									<a href="blog-detail-2.html" class="be-post-tag">UI/UX</a>,
+									<a href="blog-detail-2.html" class="be-post-tag">Web Design</a>
+								</span>
+                                <div class="author-post">
+                                    <img src="{{ asset('img/p1.jpg') }}" alt="" class="ava-author">
+                                    <span>by <a href="page1.html">Hoang Nguyen</a></span>
+                                </div>
+                                <div class="info-block">
+                                    <span><i class="fa fa-thumbs-o-up"></i> 360</span>
+                                    <span><i class="fa fa-eye"></i> 789</span>
+                                    <span><i class="fa fa-comment-o"></i> 20</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="category-6 mix custom-column-5">
+                            <div class="be-post">
+                                <a href="page1.html" class="be-img-block">
+                                    <img src="{{ asset('img/p1.jpg') }}" alt="omg">
+                                </a>
+                                <a href="page1.html" class="be-post-title">Tropicalia</a>
+								<span>
+									<a href="blog-detail-2.html" class="be-post-tag">Interaction Design</a>,
+									<a href="blog-detail-2.html" class="be-post-tag">UI/UX</a>,
+									<a href="blog-detail-2.html" class="be-post-tag">Web Design</a>
+								</span>
+                                <div class="author-post">
+                                    <img src="{{ asset('img/p1.jpg') }}" alt="" class="ava-author">
+                                    <span>by <a href="page1.html">Hoang Nguyen</a></span>
+                                </div>
+                                <div class="info-block">
+                                    <span><i class="fa fa-thumbs-o-up"></i> 360</span>
+                                    <span><i class="fa fa-eye"></i> 789</span>
+                                    <span><i class="fa fa-comment-o"></i> 20</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="category-2 mix custom-column-5">
+                            <div class="be-post">
+                                <a href="page1.html" class="be-img-block">
+                                    <img src="{{ asset('img/p1.jpg') }}" alt="omg">
+                                </a>
+                                <a href="page1.html" class="be-post-title">Face</a>
+								<span>
+									<a href="blog-detail-2.html" class="be-post-tag">Interaction Design</a>,
+									<a href="blog-detail-2.html" class="be-post-tag">UI/UX</a>,
+									<a href="blog-detail-2.html" class="be-post-tag">Web Design</a>
+								</span>
+                                <div class="author-post">
+                                    <img src="{{ asset('img/p1.jpg') }}" alt="" class="ava-author">
+                                    <span>by <a href="page1.html">Hoang Nguyen</a></span>
+                                </div>
+                                <div class="info-block">
+                                    <span><i class="fa fa-thumbs-o-up"></i> 360</span>
+                                    <span><i class="fa fa-eye"></i> 789</span>
+                                    <span><i class="fa fa-comment-o"></i> 20</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="category-1 mix custom-column-5">
+                            <div class="be-post">
+                                <a href="page1.html" class="be-img-block">
+                                    <img src="{{ asset('img/p1.jpg') }}" alt="omg">
+                                </a>
+                                <a href="page1.html" class="be-post-title">Stay Ahead Series</a>
+								<span>
+									<a href="blog-detail-2.html" class="be-post-tag">Interaction Design</a>,
+									<a href="blog-detail-2.html" class="be-post-tag">UI/UX</a>,
+									<a href="blog-detail-2.html" class="be-post-tag">Web Design</a>
+								</span>
+                                <div class="author-post">
+                                    <img src="{{ asset('img/p1.jpg') }}" alt="" class="ava-author">
+                                    <span>by <a href="page1.html">Hoang Nguyen</a></span>
+                                </div>
+                                <div class="info-block">
+                                    <span><i class="fa fa-thumbs-o-up"></i> 360</span>
+                                    <span><i class="fa fa-eye"></i> 789</span>
+                                    <span><i class="fa fa-comment-o"></i> 20</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="category-3 mix custom-column-5">
+                            <div class="be-post">
+                                <a href="page1.html" class="be-img-block">
+                                    <img src="{{ asset('img/p1.jpg') }}" alt="omg">
+                                </a>
+                                <a href="page1.html" class="be-post-title">Faber-Castell / Psychological Problems</a>
+								<span>
+									<a href="blog-detail-2.html" class="be-post-tag">Interaction Design</a>,
+									<a href="blog-detail-2.html" class="be-post-tag">UI/UX</a>,
+									<a href="blog-detail-2.html" class="be-post-tag">Web Design</a>
+								</span>
+                                <div class="author-post">
+                                    <img src="{{ asset('img/p1.jpg') }}" alt="" class="ava-author">
+                                    <span>by <a href="page1.html">Hoang Nguyen</a></span>
+                                </div>
+                                <div class="info-block">
+                                    <span><i class="fa fa-thumbs-o-up"></i> 360</span>
+                                    <span><i class="fa fa-eye"></i> 789</span>
+                                    <span><i class="fa fa-comment-o"></i> 20</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="category-1 mix custom-column-5">
+                            <div class="be-post">
+                                <a href="page1.html" class="be-img-block">
+                                    <img src="{{ asset('img/p1.jpg') }}" alt="omg">
+                                </a>
+                                <a href="page1.html" class="be-post-title">Garry Simpson - Bridges - Intelligent Life Magazine</a>
+								<span>
+									<a href="blog-detail-2.html" class="be-post-tag">Interaction Design</a>,
+									<a href="blog-detail-2.html" class="be-post-tag">UI/UX</a>,
+									<a href="blog-detail-2.html" class="be-post-tag">Web Design</a>
+								</span>
+                                <div class="author-post">
+                                    <img src="{{ asset('img/p1.jpg') }}" alt="" class="ava-author">
+                                    <span>by <a href="page1.html">Hoang Nguyen</a></span>
+                                </div>
+                                <div class="info-block">
+                                    <span><i class="fa fa-thumbs-o-up"></i> 360</span>
+                                    <span><i class="fa fa-eye"></i> 789</span>
+                                    <span><i class="fa fa-comment-o"></i> 20</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+{% endblock %}
